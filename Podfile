@@ -7,5 +7,5 @@ target 'TrackListDetailApp' do
 
   # Pods for TrackListDetailApp
 	pod 'AlamofireImage', '~> 4.1'
-	pod 'Alamofire', '~> 5.4'
+	pod 'Alamofire'
 end

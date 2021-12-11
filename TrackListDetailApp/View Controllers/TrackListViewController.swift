@@ -28,7 +28,7 @@ class TrackListViewController: UIViewController {
      
      Instead of MVC, using MVVM provided a much cleaner code, and handling better logics and much transparent communication between the Controllers, Views and Models.
      
-     It also mentioned that one benefit of MVVM is improved testability of view controllers. The VCs no longer depends on the model layer, which makes them easier to test. 
+     It was also mentioned that one benefit of MVVM is improved testability of view controllers. The VCs no longer depends on the model layer, which makes them easier to test. 
      
     
      */
