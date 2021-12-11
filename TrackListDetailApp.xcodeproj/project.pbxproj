@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65CC01CB8984B1A5765D95B8 /* Pods_TrackListDetailApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E771E93BD947EF0E8FDAEAC9 /* Pods_TrackListDetailApp.framework */; };
 		D137E8022764071D00ABAE5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137E8012764071D00ABAE5C /* AppDelegate.swift */; };
 		D137E8042764071D00ABAE5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137E8032764071D00ABAE5C /* SceneDelegate.swift */; };
-		D137E8062764071D00ABAE5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137E8052764071D00ABAE5C /* ViewController.swift */; };
+		D137E8062764071D00ABAE5C /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137E8052764071D00ABAE5C /* TrackListViewController.swift */; };
 		D137E8092764071D00ABAE5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D137E8072764071D00ABAE5C /* Main.storyboard */; };
 		D137E80B2764071E00ABAE5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D137E80A2764071E00ABAE5C /* Assets.xcassets */; };
 		D137E80E2764071E00ABAE5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D137E80C2764071E00ABAE5C /* LaunchScreen.storyboard */; };
+		D137E81A2764074F00ABAE5C /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137E8192764074F00ABAE5C /* Track.swift */; };
+		D137E81D2764075C00ABAE5C /* TrackRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137E81C2764075C00ABAE5C /* TrackRequest.swift */; };
+		D137E8202764076700ABAE5C /* TrackResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137E81F2764076700ABAE5C /* TrackResponse.swift */; };
+		D137E8232764077800ABAE5C /* TrackListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137E8222764077800ABAE5C /* TrackListViewModel.swift */; };
+		D137E82C276415F100ABAE5C /* TrackListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137E82A276415F100ABAE5C /* TrackListTableViewCell.swift */; };
+		D137E82D276415F100ABAE5C /* TrackListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D137E82B276415F100ABAE5C /* TrackListTableViewCell.xib */; };
+		D137E8312764265A00ABAE5C /* ImageHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137E8302764265A00ABAE5C /* ImageHandling.swift */; };
+		D137E83F2764476500ABAE5C /* TrackListDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137E83E2764476500ABAE5C /* TrackListDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A7D8AE63522EA3DB4B742A6 /* Pods-TrackListDetailApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackListDetailApp.debug.xcconfig"; path = "Target Support Files/Pods-TrackListDetailApp/Pods-TrackListDetailApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CCF22A846A798B29D3B0E8CC /* Pods-TrackListDetailApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackListDetailApp.release.xcconfig"; path = "Target Support Files/Pods-TrackListDetailApp/Pods-TrackListDetailApp.release.xcconfig"; sourceTree = "<group>"; };
 		D137E7FE2764071D00ABAE5C /* TrackListDetailApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackListDetailApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D137E8012764071D00ABAE5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D137E8032764071D00ABAE5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D137E8052764071D00ABAE5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D137E8052764071D00ABAE5C /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
 		D137E8082764071D00ABAE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D137E80A2764071E00ABAE5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D137E80D2764071E00ABAE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D137E80F2764071E00ABAE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D137E8192764074F00ABAE5C /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		D137E81C2764075C00ABAE5C /* TrackRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackRequest.swift; sourceTree = "<group>"; };
+		D137E81F2764076700ABAE5C /* TrackResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackResponse.swift; sourceTree = "<group>"; };
+		D137E8222764077800ABAE5C /* TrackListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewModel.swift; sourceTree = "<group>"; };
+		D137E82A276415F100ABAE5C /* TrackListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListTableViewCell.swift; sourceTree = "<group>"; };
+		D137E82B276415F100ABAE5C /* TrackListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackListTableViewCell.xib; sourceTree = "<group>"; };
+		D137E8302764265A00ABAE5C /* ImageHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHandling.swift; sourceTree = "<group>"; };
+		D137E83E2764476500ABAE5C /* TrackListDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListDetailsViewController.swift; sourceTree = "<group>"; };
+		E771E93BD947EF0E8FDAEAC9 /* Pods_TrackListDetailApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackListDetailApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65CC01CB8984B1A5765D95B8 /* Pods_TrackListDetailApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		083C175036EBE1FE0F4EB9F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A7D8AE63522EA3DB4B742A6 /* Pods-TrackListDetailApp.debug.xcconfig */,
+				CCF22A846A798B29D3B0E8CC /* Pods-TrackListDetailApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D137E7F52764071D00ABAE5C = {
 			isa = PBXGroup;
 			children = (
 				D137E8002764071D00ABAE5C /* TrackListDetailApp */,
 				D137E7FF2764071D00ABAE5C /* Products */,
+				083C175036EBE1FE0F4EB9F8 /* Pods */,
+				FE33F465B0F99E70A08DA2A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,79 @@
 		D137E8002764071D00ABAE5C /* TrackListDetailApp */ = {
 			isa = PBXGroup;
 			children = (
-				D137E8012764071D00ABAE5C /* AppDelegate.swift */,
-				D137E8032764071D00ABAE5C /* SceneDelegate.swift */,
-				D137E8052764071D00ABAE5C /* ViewController.swift */,
+				D137E8162764072700ABAE5C /* Delegate */,
+				D137E83C27643A2000ABAE5C /* View Controllers */,
+				D137E825276408EC00ABAE5C /* Models */,
+				D137E839276439EF00ABAE5C /* View Models */,
+				D137E837276439D800ABAE5C /* View */,
+				D137E83A27643A0F00ABAE5C /* Utils */,
 				D137E8072764071D00ABAE5C /* Main.storyboard */,
 				D137E80A2764071E00ABAE5C /* Assets.xcassets */,
 				D137E80C2764071E00ABAE5C /* LaunchScreen.storyboard */,
 				D137E80F2764071E00ABAE5C /* Info.plist */,
 			);
 			path = TrackListDetailApp;
+			sourceTree = "<group>";
+		};
+		D137E8162764072700ABAE5C /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				D137E8012764071D00ABAE5C /* AppDelegate.swift */,
+				D137E8032764071D00ABAE5C /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		D137E825276408EC00ABAE5C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D137E8192764074F00ABAE5C /* Track.swift */,
+				D137E81C2764075C00ABAE5C /* TrackRequest.swift */,
+				D137E81F2764076700ABAE5C /* TrackResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D137E837276439D800ABAE5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D137E82A276415F100ABAE5C /* TrackListTableViewCell.swift */,
+				D137E82B276415F100ABAE5C /* TrackListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D137E839276439EF00ABAE5C /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				D137E8222764077800ABAE5C /* TrackListViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		D137E83A27643A0F00ABAE5C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D137E8302764265A00ABAE5C /* ImageHandling.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D137E83C27643A2000ABAE5C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D137E8052764071D00ABAE5C /* TrackListViewController.swift */,
+				D137E83E2764476500ABAE5C /* TrackListDetailsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FE33F465B0F99E70A08DA2A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E771E93BD947EF0E8FDAEAC9 /* Pods_TrackListDetailApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D137E8122764071E00ABAE5C /* Build configuration list for PBXNativeTarget "TrackListDetailApp" */;
 			buildPhases = (
+				A4462F83DF8DEA3185F8A371 /* [CP] Check Pods Manifest.lock */,
 				D137E7FA2764071D00ABAE5C /* Sources */,
 				D137E7FB2764071D00ABAE5C /* Frameworks */,
 				D137E7FC2764071D00ABAE5C /* Resources */,
+				4082D7B4B518E3FCA6450D7C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +225,69 @@
 				D137E80E2764071E00ABAE5C /* LaunchScreen.storyboard in Resources */,
 				D137E80B2764071E00ABAE5C /* Assets.xcassets in Resources */,
 				D137E8092764071D00ABAE5C /* Main.storyboard in Resources */,
+				D137E82D276415F100ABAE5C /* TrackListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4082D7B4B518E3FCA6450D7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrackListDetailApp/Pods-TrackListDetailApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrackListDetailApp/Pods-TrackListDetailApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrackListDetailApp/Pods-TrackListDetailApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4462F83DF8DEA3185F8A371 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrackListDetailApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D137E7FA2764071D00ABAE5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D137E8062764071D00ABAE5C /* ViewController.swift in Sources */,
+				D137E8232764077800ABAE5C /* TrackListViewModel.swift in Sources */,
+				D137E81D2764075C00ABAE5C /* TrackRequest.swift in Sources */,
+				D137E8062764071D00ABAE5C /* TrackListViewController.swift in Sources */,
+				D137E83F2764476500ABAE5C /* TrackListDetailsViewController.swift in Sources */,
+				D137E8202764076700ABAE5C /* TrackResponse.swift in Sources */,
+				D137E8312764265A00ABAE5C /* ImageHandling.swift in Sources */,
+				D137E82C276415F100ABAE5C /* TrackListTableViewCell.swift in Sources */,
 				D137E8022764071D00ABAE5C /* AppDelegate.swift in Sources */,
 				D137E8042764071D00ABAE5C /* SceneDelegate.swift in Sources */,
+				D137E81A2764074F00ABAE5C /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +431,7 @@
 		};
 		D137E8132764071E00ABAE5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7D8AE63522EA3DB4B742A6 /* Pods-TrackListDetailApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +451,7 @@
 		};
 		D137E8142764071E00ABAE5C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCF22A846A798B29D3B0E8CC /* Pods-TrackListDetailApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
